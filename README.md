@@ -1,6 +1,6 @@
-# Fujifilm FP1 Generator
+# Ricoh Recipes
 
-This tool supports to generate the FP1 files from a JSON file.
+This tool supports to generate the readable files from a JSON file.
 
 ## Usage
 
@@ -14,10 +14,8 @@ This tool supports to generate the FP1 files from a JSON file.
 ```
 |_ assets
 | |_ input-recipes.json
-|_ out
-| |_ output-recipes.json
-| |_ classic-negative.FP1
-| |_ reala-ace.FP1
+|_ dist
+| |_ db/output-recipes.json
 |_ utils
 |_ index.js
 ```
