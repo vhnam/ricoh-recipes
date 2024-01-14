@@ -1,0 +1,17 @@
+{
+  "name": "ricoh-recipes",
+  "version": "1.0.0",
+  "description": "This tool supports to generate the readable recipes from a JSON file.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node src/index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "lodash.kebabcase": "^4.1.1",
+    "lodash.trim": "^4.5.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
